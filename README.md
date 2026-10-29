@@ -53,7 +53,7 @@ Install dependencies and run:
 
 ```bash
 python -m pip install -r requirements.txt
-python reconscope.py example.com --output report.json
+python reconscope.py example.com --authorized --output report.json
 ```
 
 Replace `example.com` with a target you own or have written permission to assess.
