@@ -1,0 +1,15 @@
+[project]
+name = "reconscope"
+version = "1.0.0"
+description = "Lightweight web reconnaissance for authorized security assessments"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.32.0,<3.0",
+  "dnspython>=2.6.0,<3.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[project.scripts]
+reconscope = "reconscope:main"
